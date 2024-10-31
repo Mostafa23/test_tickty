@@ -26,7 +26,7 @@ loginForm.addEventListener('submit', async function (event) {
         const data = await response.json();
         if (response.ok) {
             console.log('Login successful:', data);
-            setTimeout(() => window.location.href = "index.html", 30000);
+            setTimeout(() => window.location.href = "index.html", 300);
         } else {
             loginErrorMessage.textContent = data.message || 'Login failed.';
         }
