@@ -1,7 +1,7 @@
 {
   "name": "ticketyprojectfiles",
   "version": "1.0.0",
-  "main": "run.js",
+  "main": "src/run.js",
   "scripts": {
     "start": "node src/run.js"
   },
